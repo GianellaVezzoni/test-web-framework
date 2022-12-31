@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-31T16:58:31 ART" name="com.testWeb.TestRunner" finished-at="2022-12-31T16:58:41 ART" duration-ms="9433">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testWeb.TestRunner@1aafa419]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-12-31T16:58:31 ART" name="Command line test" finished-at="2022-12-31T16:58:41 ART" duration-ms="9433">
+      <class name="com.testWeb.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.testWeb.TestRunner@1aafa419]" started-at="2022-12-31T16:58:31 ART" name="setUpClass" finished-at="2022-12-31T16:58:31 ART" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testWeb.TestRunner@1aafa419]" started-at="2022-12-31T16:58:31 ART" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-31T16:58:36 ART" duration-ms="4634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search post on mercadoLibre"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search product on mercadoLibre webpage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testWeb.TestRunner@1aafa419]" started-at="2022-12-31T16:58:36 ART" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-31T16:58:41 ART" duration-ms="4608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search post on mercadoLibre"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search product on mercadoLibre webpage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testWeb.TestRunner@1aafa419]" started-at="2022-12-31T16:58:41 ART" name="tearDownClass" finished-at="2022-12-31T16:58:41 ART" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testWeb.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.testWeb.TestRunner -->
+</testng-results>
